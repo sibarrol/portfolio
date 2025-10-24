@@ -1,5 +1,4 @@
 import React from 'react'
-import image from '../../public/IMG_4438.jpeg'
 import { BiLogoGithub, BiLogoLinkedin } from 'react-icons/bi';
 
 const Home = () => {
