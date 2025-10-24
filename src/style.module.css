@@ -1,0 +1,30 @@
+.header {
+    color: LightSkyBlue;
+    padding: 10px 40px;
+    font-family: Roboto Condensed;
+    text-align: center;
+}
+
+.subheader {
+    color: Linen;
+    padding: 10px 40px;
+    font-family: Roboto Condensed;
+    text-align: center;
+}
+
+.bodytext {
+    color: Linen;
+    padding: 10px 40px;
+    font-family: Roboto Condensed;
+    text-align: center;
+}
+
+.logo {
+    font-size: 64px;
+    border: 2px linen;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 40px;
+    display: flex;
+}

@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import styles from '../style.module.css';
 import { BiLogoGithub, BiLogoLinkedin } from 'react-icons/bi';
 
 const Home = () => {
@@ -7,13 +8,13 @@ const Home = () => {
 
             {/* Name */}
             <div>
-                <h1>
+                <h1 className={styles.header}>
                     Sophia Ibarrola
                 </h1>
             </div>
 
             {/* Description */}
-            <div>
+            <div className={styles.subheader}>
                 <h3>
                     Data Science & Media Science student at Boston University
                 </h3>
@@ -21,7 +22,7 @@ const Home = () => {
 
             {/* Bio */}
             <div>
-                <p>
+                <p className={styles.bodytext}>
                     Hello! I'm Sophia Ibarrola, a Data Science & Media Science student at Boston University.
                     I'm a driven student interested in the intersection between data analytics and mass communication. 
                     Welcome to my portfolio!
@@ -29,7 +30,7 @@ const Home = () => {
             </div>
 
             {/* Socials */}
-            <div> 
+            <div className={styles.logo}> 
                 <BiLogoGithub />
                 <BiLogoLinkedin />
             </div>
