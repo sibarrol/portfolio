@@ -20,7 +20,7 @@ const Projects = () => {
             {/* Project 2 */}
             <div>
                 <h1>
-                    Mini Hacks Winner
+                    Hackathon Winner
                 </h1>
                 <h3>
                     BU Spark! Mini Hacks Hackathon 2024 
