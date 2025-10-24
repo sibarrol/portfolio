@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import styles from '../style.module.css';
 
 const Experience = () => {
     return (
@@ -6,10 +7,13 @@ const Experience = () => {
 
             {/* Experience 1 */}
             <div>
-                <h1>
+                <h3 className={styles.header}>
                     Syracuse Sports Analytics Summer Program
-                </h1>
-                <p>
+                </h3>
+                <h4 className={styles.subheader}>
+                    Syracuse University
+                </h4>
+                <p className={styles.bodytext}>
                     Gained experience in R at Syracuse Pre-College Sports Analytics Program
                 </p>
             </div>
