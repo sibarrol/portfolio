@@ -26,7 +26,7 @@ const Projects = () => {
                     BU Spark! Mini Hacks Hackathon 2024 
                 </h3>
                 <p>
-                    Won a hackathon by creating an app for voter information awareness.
+                    Won a hackathon with my team by creating an app for voter information awareness.
                 </p>
             </div>
 
