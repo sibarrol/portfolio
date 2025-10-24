@@ -5,11 +5,8 @@ import Projects from "./components/Projects";
 function App() {
   return (
     <>
-      <div>
-        <Home/>
-      </div>
-
       <main>
+        <Home/>
         <Experience/>
         <Projects/>
       </main>

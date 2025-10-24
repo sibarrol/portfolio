@@ -30,9 +30,13 @@ const Home = () => {
             </div>
 
             {/* Socials */}
-            <div className={styles.logo}> 
-                <BiLogoGithub />
-                <BiLogoLinkedin />
+            <div className={styles.parent}> 
+                <a href="https://github.com/sibarrol">
+                    <BiLogoGithub className={styles.logo}/>
+                </a>
+                <a href="www.linkedin.com/in/sophia-ibarrola-6ba418356">
+                <BiLogoLinkedin className={styles.logo}/>
+                </a>
             </div>
 
         </div>

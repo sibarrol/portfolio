@@ -20,11 +20,27 @@
 }
 
 .logo {
-    font-size: 64px;
-    border: 2px linen;
-    display: inline-flex;
+    height: 30px;
+    width: 30px;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: transparent;
+
+    display: flex;
     align-items: center;
     justify-content: center;
+
     padding: 10px 40px;
-    display: flex;
+}
+
+.logo:hover {
+    background-color: linen;
+    color: rgb(0, 55, 115);
+}
+
+.parent {
+    display:flex;
+    justify-content: center;
+    width: 100%;
 }
