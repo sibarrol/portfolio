@@ -3,7 +3,7 @@ import styles from '../style.module.css';
 
 const Projects = () => {
     return (
-        <div className={styles.projectparent}>
+        <div className={styles.parent}>
 
             <h1 className={styles.header}>Projects</h1>
             

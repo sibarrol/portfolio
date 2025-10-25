@@ -1,10 +1,13 @@
 import React from 'react';
 import styles from '../style.module.css';
+import image from '../../public/michigan_crown_picture.jpg';
 import { BiLogoGithub, BiLogoLinkedin } from 'react-icons/bi';
 
 const Home = () => {
     return (
-        <div>
+        <div className={styles.parent}>
+            
+            <img src={image} className={styles.image} />
 
             {/* Name */}
             <div>
