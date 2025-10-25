@@ -1,19 +1,12 @@
-.header {
-    color: LightSkyBlue;
-    padding: 10px 40px;
-    font-family: Roboto Condensed;
-    text-align: center;
-}
-
-.subheader {
-    color: Linen;
-    padding: 10px 40px;
-    font-family: Roboto Condensed;
-    text-align: center;
-}
-
 .bodytext {
-    color: Linen;
+    color: rgb(0, 55, 115);
+    padding: 10px 40px;
+    font-family: Roboto Condensed;
+    text-align: center;
+}
+
+.header {
+    color: SteelBlue;
     padding: 10px 40px;
     font-family: Roboto Condensed;
     text-align: center;
@@ -26,7 +19,7 @@
     border-width: 2px;
     border-style: solid;
     border-color: transparent;
-    border-radius: 70%;
+    border-radius: 55%;
 
     display: flex;
     align-items: center;
@@ -36,12 +29,61 @@
 }
 
 .logo:hover {
-    background-color: linen;
-    color: rgb(0, 55, 115);
+    background-color: rgb(0, 55, 115);
+    color: linen;
 }
 
-.parent {
+.logoparent {
     display:flex;
     justify-content: center;
     width: 100%;
+}
+
+.projectparent {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    padding: 40px;
+}
+
+.subheader {
+    color: rgb(0, 55, 115);
+    padding: 10px 40px;
+    font-family: Roboto Condensed;
+    text-align: center;
+}
+
+.tile {
+    text-align: left;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(0, 55, 115);
+
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    border-radius: 8px;
+
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4,0,0.2,1);
+    transition-duration: 200ms;
+}
+
+.tile:hover {
+    transform: scale(1.05);
+
+    background-color: rgb(182, 208, 226);
+}
+
+.tileparent {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0,1fr));
+    gap: 20px;
 }

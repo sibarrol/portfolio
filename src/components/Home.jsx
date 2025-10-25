@@ -30,7 +30,7 @@ const Home = () => {
             </div>
 
             {/* Socials */}
-            <div className={styles.parent}> 
+            <div className={styles.logoparent}> 
                 <a href="https://github.com/sibarrol">
                     <BiLogoGithub className={styles.logo}/>
                 </a>
