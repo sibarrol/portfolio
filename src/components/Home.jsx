@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../style.module.css';
-import image from '../../public/michigan_crown_picture.jpg';
+import image from '../../public/IMG_1454.jpeg';
 import { BiLogoGithub, BiLogoLinkedin } from 'react-icons/bi';
 
 const Home = () => {
@@ -37,8 +37,8 @@ const Home = () => {
                 <a href="https://github.com/sibarrol">
                     <BiLogoGithub className={styles.logo}/>
                 </a>
-                <a href="www.linkedin.com/in/sophia-ibarrola-6ba418356">
-                <BiLogoLinkedin className={styles.logo}/>
+                <a href="https://www.linkedin.com/in/sophia-ibarrola-6ba418356">
+                    <BiLogoLinkedin className={styles.logo}/>
                 </a>
             </div>
 

@@ -1,5 +1,6 @@
 import Home from "./components/Home";
-import Experience from "./components/Experience";
+import CodingExperience from "./components/CodingExperience"
+import WorkExperience from "./components/WorkExperience";
 import Projects from "./components/Projects";
 
 function App() {
@@ -8,6 +9,8 @@ function App() {
       <main>
         <Home/>
         <Projects/>
+        <CodingExperience/>
+        <WorkExperience/>
       </main>
 
     </>

@@ -1,6 +1,6 @@
 .bodytext {
     color: rgb(0, 55, 115);
-    padding: 10px 40px;
+    padding: 2px 40px;
     font-family: Roboto Condensed;
     text-align: center;
 }
@@ -15,6 +15,7 @@
 .image {
     height: 300px;
     width: 300px;
+    border-radius: '50%';
 }
 
 .logo {
@@ -83,7 +84,6 @@
 
 .tile:hover {
     transform: scale(1.05);
-
     background-color: rgb(182, 208, 226);
 }
 
